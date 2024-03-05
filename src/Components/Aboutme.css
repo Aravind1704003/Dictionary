@@ -1,0 +1,36 @@
+.about-me {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #333;
+  }
+  
+  .about-me h1 {
+    color: #16065a;
+  }
+  
+  .about-me p {
+    margin-bottom: 15px;
+  }
+  
+ .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    font-size: 25px;
+    padding-top: 15px;
+ }
+ .icons p a {
+    transition: color 0.3s ease; 
+    cursor: pointer;
+  }
+  
+  .icons p>a:hover {
+    color: #007bff; 
+  }
